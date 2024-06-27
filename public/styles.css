@@ -66,3 +66,54 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Allgemeine Stile für die Tabelle */
+#emissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#emissions-table th, #emissions-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#emissions-table th {
+    background-color: #f2f2f2;
+}
+
+/* Stile für die Header-Zeile */
+#emissions-table thead th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Stile für die Datenzeilen */
+#emissions-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#emissions-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Stile für die Filter-Inputs */
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 6px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
